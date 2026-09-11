@@ -19,14 +19,14 @@ const modulos = [
     aulas: 6,
     rota: '/eletronica/1'  // Primeira aula do módulo
   },
-  { 
-    id: 3, 
-    titulo: 'Programação com Arduino', 
-    descricao: 'Código e lógica', 
-    emoji: '💻', 
-    aulas: 8,
-    rota: '/programacao/1'  // Para o futuro
-  },
+{
+  id: 3,
+  titulo: 'Programação com Arduino',
+  descricao: 'Repositório de códigos base para projetos',
+  emoji: '💻',
+  aulas: 4,
+  rota: '/programacao'
+},
   { 
     id: 4, 
     titulo: 'Sensores e Atuadores', 

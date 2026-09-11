@@ -17,6 +17,11 @@ import EletronicaAula3 from './pages/eletronica-basica/Aula3';
 import EletronicaAula4 from './pages/eletronica-basica/Aula4';
 import EletronicaAula5 from './pages/eletronica-basica/Aula5';
 import EletronicaAula6 from './pages/eletronica-basica/Aula6';
+import ProgramacaoIndex from './pages/programacao/ProgramacaoIndex';
+import Bluetooth from './pages/programacao/Bluetooth';
+import AcelerometroADXL from './pages/programacao/AcelerometroADXL';
+import RFID from './pages/programacao/RFID';
+import ControleIR from './pages/programacao/ControleIR';
 
 function App() {
   return (
@@ -40,6 +45,11 @@ function App() {
           <Route path="/eletronica/4" element={<EletronicaAula4 />} />
           <Route path="/eletronica/5" element={<EletronicaAula5 />} />
           <Route path="/eletronica/6" element={<EletronicaAula6 />} />
+          <Route path="/programacao" element={<ProgramacaoIndex />} />
+<Route path="/programacao/bluetooth" element={<Bluetooth />} />
+<Route path="/programacao/acelerometro" element={<AcelerometroADXL />} />
+<Route path="/programacao/rfid" element={<RFID />} />
+<Route path="/programacao/ir" element={<ControleIR />} />
         </Routes>
       </div>
     </Router>
